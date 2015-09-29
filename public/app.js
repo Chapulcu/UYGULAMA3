@@ -5,73 +5,73 @@ app.controller('POSController', function ($scope) {
     $scope.food = {
       efesFici33  : {count: 1, id:35, detail: "Efes Fıçı 33cl", price: 15},
       
-                     efesFici50  : {count: 3, id:1, detail: "Efes Fıçı 50cl",price: 8},
+                     efesFici50  : {count: 3, id:1, detail: "Efes Fıçı 50cl",price: 10},
       
-                     bomontiFici33    : {count: 1, id:2, detail: "Bomonti Fıçı 33cl",price: 3},
+                     bomontiFici33    : {count: 1, id:2, detail: "Bomonti Fıçı 33cl",price: 10},
       
-                     bomontiFici50     : {count: 1, id:3, detail: "Bomonti Fıçı 50cl",price: 3},
+                     bomontiFici50     : {count: 1, id:3, detail: "Bomonti Fıçı 50cl",price: 10},
      
-                     tuborgFici33    : {count: 1, id:4, detail: "Tuborg Gold Fıçı 33cl",price: 3},
+                     tuborgFici33    : {count: 1, id:4, detail: "Tuborg Gold Fıçı 33cl",price: 10},
       
-                     tuborgFici50  : {count: 1, id:5, detail: "Tuborg Gold Fıçı 50cl",price: 2},
+                     tuborgFici50  : {count: 1, id:5, detail: "Tuborg Gold Fıçı 50cl",price: 10},
       
-                     bomontiSise33  : {count: 1, id:6, detail: "Bomonti Şişe 33cl",price: 2},
+                     bomontiSise33  : {count: 1, id:6, detail: "Bomonti Şişe 33cl",price: 10},
       
-                     bomontiSise50  : {count: 1, id:7, detail: "Bomonti Filtresiz Şişe 50cl",price: 2},
+                     bomontiSise50  : {count: 1, id:7, detail: "Bomonti Filtresiz Şişe 50cl",price: 10},
       
-                     tuborgSise33   : {count: 1, id:8, detail: "Tuborg Gold Şişe 33cl",price: 2},
+                     tuborgSise33   : {count: 1, id:8, detail: "Tuborg Gold Şişe 33cl",price: 10},
       
-                     efesSise33  : {count: 1, id:9, detail: "Efes Şişe 33cl",price: 2},
+                     efesSise33  : {count: 1, id:9, detail: "Efes Şişe 33cl",price: 10},
       
-                     efesLightSise33  : {count: 1, id:10, detail: "Efes Light Şişe 33cl",price: 2},
+                     efesLightSise33  : {count: 1, id:10, detail: "Efes Light Şişe 33cl",price: 10},
       
-                     efesDarkSise33  : {count: 1, id:11, detail: "Efes Dark Şişe 33cl",price: 2},
+                     efesDarkSise33  : {count: 1, id:11, detail: "Efes Dark Şişe 33cl",price: 10},
       
-                     efesUnfilteredSise33  : {count: 12, id:11, detail: "Efes Unfiltred Şişe 33cl",price: 2},
+                     efesUnfilteredSise33  : {count: 12, id:11, detail: "Efes Unfiltred Şişe 33cl",price: 10},
       
-                     efesMaltSise33  : {count: 1, id:13, detail: "Efes Malt Şişe 33cl",price: 2},
+                     efesMaltSise33  : {count: 1, id:13, detail: "Efes Malt Şişe 33cl",price: 10},
       
-                     efesExtraSise33  : {count: 1, id:14, detail: "Efes Extra Şişe 33cl",price: 2},
+                     efesExtraSise33  : {count: 1, id:14, detail: "Efes Extra Şişe 33cl",price: 10},
       
-                     mariachi  : {count: 1, id:15, detail: "Mariachi 33cl",price: 2},
+                     mariachi  : {count: 1, id:15, detail: "Mariachi 33cl",price: 10},
       
-                     mariachiBlack  : {count: 1, id:16, detail: "Mariachi Black 33cl",price: 2},
+                     mariachiBlack  : {count: 1, id:16, detail: "Mariachi Black 33cl",price: 10},
       
-                     becks  : {count: 1, id:17, detail: "Becks 33cl",price: 2},
+                     becks  : {count: 1, id:17, detail: "Becks 33cl",price: 10},
       
-                     miller  : {count: 1, id:18, detail: "Miller 33cl",price: 2},
+                     miller  : {count: 1, id:18, detail: "Miller 33cl",price: 10},
       
-                     carlsBerg  : {count: 1, id:19, detail: "CarlsBerg 33cl",price: 2},
+                     carlsBerg  : {count: 1, id:19, detail: "CarlsBerg 33cl",price: 10},
       
-                     peroniNastro  : {count: 1, id:20, detail: "Peroni Nastro 33cl",price: 2},
+                     peroniNastro  : {count: 1, id:20, detail: "Peroni Nastro 33cl",price: 10},
       
-                     amstel  : {count: 1, id:21, detail: "Amstel 33cl",price: 2},
+                     amstel  : {count: 1, id:21, detail: "Amstel 33cl",price: 10},
       
-                     budweiser  : {count: 1, id:22, detail: "Budweiser 33cl",price: 2},
+                     budweiser  : {count: 1, id:22, detail: "Budweiser 33cl",price: 10},
       
-                     heineken  : {count: 1, id:23, detail: "Heineken 33cl",price: 2},
+                     heineken  : {count: 1, id:23, detail: "Heineken 33cl",price: 10},
       
-                     corona  : {count: 1, id:24, detail: "Corona 33cl",price: 2},
+                     corona  : {count: 1, id:24, detail: "Corona 33cl",price: 10},
       
-                     leffeBlond  : {count: 1, id:25, detail: "Leffe Blond 33cl",price: 2},
+                     leffeBlond  : {count: 1, id:25, detail: "Leffe Blond 33cl",price: 10},
       
-                     leffeBrown  : {count: 1, id:26, detail: "Leffe Brown 33cl",price: 2},
+                     leffeBrown  : {count: 1, id:26, detail: "Leffe Brown 33cl",price: 10},
       
-                     leffeRadieuse  : {count: 1, id:27, detail: "Leffe Radieuse 33cl",price: 2},
+                     leffeRadieuse  : {count: 1, id:27, detail: "Leffe Radieuse 33cl",price: 10},
       
-                     fullersLondonPorter  : {count: 1, id:28, detail: "Fuller's London Porter 33cl",price: 2},
+                     fullersLondonPorter  : {count: 1, id:28, detail: "Fuller's London Porter 33cl",price: 10},
       
-                     fullersLondonPride  : {count: 1, id:29, detail: "Fuller's London Pride 33cl",price: 2},
+                     fullersLondonPride  : {count: 1, id:29, detail: "Fuller's London Pride 33cl",price: 10},
       
-                     fullersLondonESB  : {count: 1, id:30, detail: "Fuller's London ESB 33cl",price: 2},
+                     fullersLondonESB  : {count: 1, id:30, detail: "Fuller's London ESB 33cl",price:12},
       
-                     hoegaarden  : {count: 1, id:31, detail: "Hoegarden 33cl",price: 2},
+                     hoegaarden  : {count: 1, id:31, detail: "Hoegarden 33cl",price: 10},
       
-                     kriekMax  : {count: 1, id:32, detail: "Kriek Max 33cl",price: 2},
+                     kriekMax  : {count: 1, id:32, detail: "Kriek Max 33cl",price: 10},
       
-                     Duvel  : {count: 1, id:33, detail: "Duvel 33cl",price: 2},
+                     Duvel  : {count: 1, id:33, detail: "Duvel 33cl",price: 10},
       
-                     brooklynLager  : {count: 1, id:34, detail: "Brooklyn Lager 33cl",price: 2}
+                     brooklynLager  : {count: 1, id:34, detail: "Brooklyn Lager 33cl",price: 10}
     
                      };
 
