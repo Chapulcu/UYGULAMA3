@@ -3,50 +3,78 @@ var app = angular.module('myApp', []);
 
 app.controller('POSController', function ($scope) {
     $scope.food = {
-      Efes33cl       : {count: 1, id:12, detail: "Efes Fıçı 33 cl", price: 6},
-      Efes50cl       : {count: 1, id:2, detail: "Efes Fıçı 50 cl", price: 10},
-      Bomonti33cl    : {count: 1, id:3, detail: "Bomonti Fıçı 33 cl",price: 8},
-      Bomonti50cl    : {count: 1, id:4, detail: "Bomonti Fıçı 50 cl",price: 3},
-      TuborgGold50cl : {count: 1, id:5, detail: "Tuborg Fıçı Gold Fıçı 50cl",price: 3},
-      TuborgGold33cl : {count: 1, id:6, detail: "Tuborg Gold Fıçı 33cl",price: 3},
-      Guinness50cl   : {count: 1, id:7, detail: "Guinness Fıçı 50cl",price: 2},
-      Guinness25cl   : {count: 1, id:8, detail: "Guinness Fıçı 25cl",price: 2},
-      BomontiSise33cl: {count: 1, id:9, detail: "Bomonti Şişe 33cl",price: 2},
-      BomontiFiltresizSise50cl: {count: 1, id:10, detail: "Bomonti Filtresiz Şişe 50cl",price: 2},
-      TuborgGoldSise33cl   : {count: 1, id:11, detail: "Tuborg Gold Şişe 33cl",price: 2},
-      EfesPilsenSise33cl   : {count: 1, id:11, detail: "Efes Pilsen Şişe 33cl",price: 2},
-      EfesPilsenLight33cl   : {count: 1, id:11, detail: "Efes Pilsen Light 33cl",price: 2},
-      EfesPilsenDark33cl   : {count: 1, id:11, detail: "Efes Pilsen Dark 33cl",price: 2},
-      EfesPilsenUnfiltered50cl   : {count: 1, id:11, detail: "Efes Pilsen Unfiltered  50cl",price: 2},
-      EfesPilsenMalt50cl   : {count: 1, id:11, detail: "Efes Pilsen Malt  50cl",price: 2},
-      EfesPilsenExtra50cl   : {count: 1, id:11, detail: "Efes Pilsen Extra  50cl",price: 2},
-      Mariachi   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-      MariachiBlack   : {count: 1, id:11, detail: "Mariachi Black",price: 2},
-      Becks    : {count: 1, id:11, detail: "Becks 33cl ",price: 2},
-        Miller    : {count: 1, id:11, detail: "Miller  ",price: 2},
-        Carlsberg    : {count: 1, id:11, detail: "Carlsberg  ",price: 2},
-        Peroni    : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        Amstel    : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        Budweiser    : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        Corona    : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        Heineken    : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        LeffeBlond     : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        LeffeBrown   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        LeffeRadieuse   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        FullersLondonPorter   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        FullersLondonPride   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        FullersESB   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        Hoegaarden   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        KriekMax   : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        Duvel    : {count: 1, id:11, detail: "Mariachi ",price: 2},
-        BrooklynLager   : {count: 1, id:11, detail: "Brooklyn Lager",price: 2},
-        BrooklynEastIndiaPaleAle   : {count: 1, id:11, detail: "Brooklyn East İndia Pale Ale",price: 2},
-        BrooklynBrownAle   : {count: 1, id:11, detail: "Brooklyn Brown Ale ",price: 2},
-        KasteelBlond   : {count: 1, id:11, detail: "Kasteel Blond ",price: 2},
-        AechtSchlenkerlaRauchbierusBamberg   : {count: 1, id:11, detail: "Aecht Schlenkerla Rauchbier Aus Bamberg 50cl ",price: 2},
-        SchneiderWeisse   : {count: 1, id:11, detail: "Schneider Weisse 50cl ",price: 2}
+      efesFici33  : {count: 1, id:35, detail: "Efes Fıçı 33cl", price: 15},
+      
+                     efesFici50  : {count: 3, id:1, detail: "Efes Fıçı 50cl",price: 8},
+      
+                     bomontiFici33    : {count: 1, id:2, detail: "Bomonti Fıçı 33cl",price: 3},
+      
+                     bomontiFici50     : {count: 1, id:3, detail: "Bomonti Fıçı 50cl",price: 3},
+     
+                     tuborgFici33    : {count: 1, id:4, detail: "Tuborg Gold Fıçı 33cl",price: 3},
+      
+                     tuborgFici50  : {count: 1, id:5, detail: "Tuborg Gold Fıçı 50cl",price: 2},
+      
+                     bomontiSise33  : {count: 1, id:6, detail: "Bomonti Şişe 33cl",price: 2},
+      
+                     bomontiSise50  : {count: 1, id:7, detail: "Bomonti Filtresiz Şişe 50cl",price: 2},
+      
+                     tuborgSise33   : {count: 1, id:8, detail: "Tuborg Gold Şişe 33cl",price: 2},
+      
+                     efesSise33  : {count: 1, id:9, detail: "Efes Şişe 33cl",price: 2},
+      
+                     efesLightSise33  : {count: 1, id:10, detail: "Efes Light Şişe 33cl",price: 2},
+      
+                     efesDarkSise33  : {count: 1, id:11, detail: "Efes Dark Şişe 33cl",price: 2},
+      
+                     efesUnfilteredSise33  : {count: 12, id:11, detail: "Efes Unfiltred Şişe 33cl",price: 2},
+      
+                     efesMaltSise33  : {count: 1, id:13, detail: "Efes Malt Şişe 33cl",price: 2},
+      
+                     efesExtraSise33  : {count: 1, id:14, detail: "Efes Extra Şişe 33cl",price: 2},
+      
+                     mariachi  : {count: 1, id:15, detail: "Mariachi 33cl",price: 2},
+      
+                     mariachiBlack  : {count: 1, id:16, detail: "Mariachi Black 33cl",price: 2},
+      
+                     becks  : {count: 1, id:17, detail: "Becks 33cl",price: 2},
+      
+                     miller  : {count: 1, id:18, detail: "Miller 33cl",price: 2},
+      
+                     carlsBerg  : {count: 1, id:19, detail: "CarlsBerg 33cl",price: 2},
+      
+                     peroniNastro  : {count: 1, id:20, detail: "Peroni Nastro 33cl",price: 2},
+      
+                     amstel  : {count: 1, id:21, detail: "Amstel 33cl",price: 2},
+      
+                     budweiser  : {count: 1, id:22, detail: "Budweiser 33cl",price: 2},
+      
+                     heineken  : {count: 1, id:23, detail: "Heineken 33cl",price: 2},
+      
+                     corona  : {count: 1, id:24, detail: "Corona 33cl",price: 2},
+      
+                     leffeBlond  : {count: 1, id:25, detail: "Leffe Blond 33cl",price: 2},
+      
+                     leffeBrown  : {count: 1, id:26, detail: "Leffe Brown 33cl",price: 2},
+      
+                     leffeRadieuse  : {count: 1, id:27, detail: "Leffe Radieuse 33cl",price: 2},
+      
+                     fullersLondonPorter  : {count: 1, id:28, detail: "Fuller's London Porter 33cl",price: 2},
+      
+                     fullersLondonPride  : {count: 1, id:29, detail: "Fuller's London Pride 33cl",price: 2},
+      
+                     fullersLondonESB  : {count: 1, id:30, detail: "Fuller's London ESB 33cl",price: 2},
+      
+                     hoegaarden  : {count: 1, id:31, detail: "Hoegarden 33cl",price: 2},
+      
+                     kriekMax  : {count: 1, id:32, detail: "Kriek Max 33cl",price: 2},
+      
+                     Duvel  : {count: 1, id:33, detail: "Duvel 33cl",price: 2},
+      
+                     brooklynLager  : {count: 1, id:34, detail: "Brooklyn Lager 33cl",price: 2}
+    
+                     };
 
-    };
     
     
     $scope.itemsCnt = 1;
