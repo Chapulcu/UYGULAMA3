@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"SiraNo": {
+			"name": "SiraNo",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "SiraNo",
+			"order": 0
+		},
+		"SozlesmeTipi": {
+			"name": "SozlesmeTipi",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "SozlesmeTipi",
+			"order": 1
+		}
+	}
+}

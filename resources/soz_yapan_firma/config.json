@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"siraNo": {
+			"name": "siraNo",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "siraNo",
+			"order": 0
+		},
+		"sozYapanFirma": {
+			"name": "sozYapanFirma",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "sozYapanFirma",
+			"order": 1
+		}
+	}
+}
