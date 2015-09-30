@@ -1,0 +1,13 @@
+{
+	"type": "Collection",
+	"properties": {
+		"beer": {
+			"name": "beer",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "beer",
+			"order": 0
+		}
+	}
+}

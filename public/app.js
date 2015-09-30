@@ -2,8 +2,12 @@
 var app = angular.module('myApp', []);
 
 app.controller('POSController', function ($scope) {
+   
+    
+    
+    
     $scope.food = {
-      efesFici33  : {count: 1, id:35, detail: "Efes Fıçı 33cl", price: 15},
+                     efesFici33  : {count: 1, id:35, detail: "Efes Fıçı 33cl", price: 15},
       
                      efesFici50  : {count: 3, id:1, detail: "Efes Fıçı 50cl",price: 10},
       
